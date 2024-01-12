@@ -4,6 +4,7 @@ import Title from "./Title"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faFacebookF, faGithub, faInstagram, faLinkedin, faTwitter } from "@fortawesome/free-brands-svg-icons"
 import { useLanguage } from "../contexts/LanguageContext"
+import about from '../../assets/about.jpg'
 
 const About = () => {
 
@@ -17,7 +18,7 @@ const About = () => {
     .image-container {
       min-width: 200px;
       height: 300px;
-      background-image: url("../../assets/about.jpg");
+      background-image: url(${about});
       background-position: center;
       background-size: cover;
       border-radius: var(--radius);
