@@ -1,6 +1,7 @@
 import { styled } from "styled-components"
 import { useLanguage } from "../contexts/LanguageContext";
 import Button from "./Button";
+import hero from '../../assets/hero.png'
 
 const Hero = () => {
 
@@ -32,7 +33,7 @@ const Hero = () => {
           <a href="mailto:moslihbadr2@gmail.com"><Button>{language === 'en' ? 'Get in touch' : 'Contactez-moi'}</Button></a>
         </div>
         <div className="d-none d-lg-block">
-          <img src="hero.png" alt="Hero" style={{transform: 'translateX(25px)'}} width={450} height={450} />
+          <img src={hero} alt="Hero" style={{transform: 'translateX(25px)'}} width={450} height={450} />
         </div>
       </div>
     </StyledHero>
