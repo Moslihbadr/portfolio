@@ -56,7 +56,7 @@ const BottomNavbar = () => {
       <StyledNav>
         <Tippy content={language === 'en' ? 'Home' : 'Accueil'}>
           <StyledLink
-            href="#home"
+            href="#"
             onClick={() => handleActive('#home')}
             isActive={activeTab === '#home'}
           >
