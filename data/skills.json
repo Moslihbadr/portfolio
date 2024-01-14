@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "HTML",
+    "url": "../assets/skills/HTML.png"
+  },
+  {
+    "id": 2,
+    "name": "CSS",
+    "url": "../assets/skills/CSS.png"
+  },
+  {
+    "id": 3,
+    "name": "JavaScript",
+    "url": "../assets/skills/Javascript.png"
+  },
+  {
+    "id": 4,
+    "name": "React",
+    "url": "../assets/skills/React.png"
+  },
+  {
+    "id": 5,
+    "name": "Redux",
+    "url": "../assets/skills/Redux.svg"
+  },
+  {
+    "id": 6,
+    "name": "jQuery",
+    "url": "../assets/skills/JQuery.svg"
+  },
+  {
+    "id": 7,
+    "name": "Bootstrap",
+    "url": "../assets/skills/Bootstrap.png"
+  },
+  {
+    "id": 8,
+    "name": "PHP",
+    "url": "../assets/skills/PHP.png"
+  },
+  {
+    "id": 9,
+    "name": "Python",
+    "url": "../assets/skills/Python.png"
+  },
+  {
+    "id": 10,
+    "name": "Laravel",
+    "url": "../assets/skills/Laravel.png"
+  },
+  {
+    "id": 11,
+    "name": "MySQL",
+    "url": "../assets/skills/MySql.png"
+  },
+  {
+    "id": 12,
+    "name": "Git",
+    "url": "../assets/skills/Git.png"
+  },
+  {
+    "id": 13,
+    "name": "GitHub",
+    "url": "../assets/skills/Github.png"
+  },
+  {
+    "id": 14,
+    "name": "npm",
+    "url": "../assets/skills/npm.png"
+  }
+]
