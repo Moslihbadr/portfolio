@@ -32,7 +32,7 @@ const Skills = () => {
   const { language } = useLanguage()
 
   useEffect(() => {
-    fetch('../../data/skills.json')
+    fetch('/data/skills.json')
       .then(response => response.json())
       .then(data => {
 
