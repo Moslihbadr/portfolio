@@ -4,10 +4,11 @@ import { useLanguage } from "../../contexts/LanguageContext";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCaretDown } from "@fortawesome/free-solid-svg-icons";
 import Button from "../Button";
+import cv from '../../../assets/Badr_Moslih.pdf'
 
 const StyledNav = styled.nav`
   background: transparent;
-  width: 90vw;
+  width: 95vw;
   max-width: 1320px;
   margin-top: 1rem;
   position: fixed;
@@ -96,7 +97,11 @@ const TopNavbar = () => {
               FR
             </button>
           </DropdownMenu>
-          <a href="#contact"><Button className={'ms-4'}>{language === 'en' ? 'Contact Me' : 'Contactez-moi'}</Button></a>
+          <a href={cv} target="_blank" download={true} rel="noopener noreferrer" >
+            <Button className='ms-4'>
+              {language === 'en' ? 'Download CV' : 'Télécharger CV'}
+            </Button>
+          </a>
         </div>
       </div>
     </StyledNav>
