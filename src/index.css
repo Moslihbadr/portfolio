@@ -26,11 +26,11 @@ html {
   scroll-padding-top: 25%;
 }
 
-@media screen and (max-width: 570px) {
+/* @media screen and (max-width: 570px) {
   html {
     scroll-padding-top: 90px;
   }
-}
+} */
 
 body {
   font-family: 'Poppins', sans-serif !important;
