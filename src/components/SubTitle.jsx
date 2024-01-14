@@ -3,9 +3,9 @@ import { styled } from "styled-components"
 const SubTitle = ({ children, className }) => {
 
   const StyledSubTitle = styled.h6`
-    max-width: 400px;
     color: var(--main-green);
     font-size: 2rem;
+    line-height: 2.5rem;
   `
 
   return (
