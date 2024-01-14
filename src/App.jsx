@@ -1,5 +1,6 @@
 import About from "./components/About"
 import Hero from "./components/Hero"
+import Skills from "./components/Skills"
 import Navbar from "./components/navbar/Navbar"
 import { LanguageProvider } from "./contexts/LanguageContext"
 
@@ -11,6 +12,9 @@ function App() {
         <Navbar />
         <Hero />
         <About />
+        <Skills />
+        <Hero />
+        <Hero />
       </div>
     </LanguageProvider>
   )
