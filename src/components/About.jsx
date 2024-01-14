@@ -57,7 +57,7 @@ const About = () => {
   `
 
   return (
-    <StyledAbout className="ps-2" id="about">
+    <StyledAbout className="ps-2 py-5" id="about">
       <div className="image-container"></div>
       <div>
         <Title className='mb-3' link={'#about'}>{ language === 'en' ? <>About me</> : <>À propos de moi</>}</Title>
@@ -65,13 +65,13 @@ const About = () => {
         <p className="mb-4" style={{ color: 'var(--gray-3)', maxWidth: '800px', lineHeight: '2rem' }}>
           { language === 'en' ?
             <>
-              Hi, I&lsquo;m Badr Moslih, a 22-year-old junior full-stack developer from Casablanca, Morocco. <br />
-              Recently graduated in digital development, specializing in full-stack web development. <br />
+              Hi, I&lsquo;m Badr Moslih, a 22-year-old junior full-stack developer from Casablanca, Morocco.
+              Recently graduated in digital development, specializing in full-stack web development.
               My passion for programming drives my dedication to creating innovative and user-friendly solutions.         
             </> : 
             <>
-              Salut, je suis Badr Moslih, un développeur full-stack junior de 22 ans basé à Casablanca, Maroc.<br />
-              Diplômé récemment en développement digital, spécialisé en développement web full-stack. <br />
+              Salut, je suis Badr Moslih, un développeur full-stack junior de 22 ans basé à Casablanca, Maroc
+              Diplômé récemment en développement digital, spécialisé en développement web full-stack.
               Ma passion pour la programmation guide mon engagement à créer des solutions innovantes et conviviales.
             </>
           }
